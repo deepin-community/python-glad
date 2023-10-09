@@ -1,5 +1,41 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-glad (2.0.2-0.1) unstable; urgency=medium
 
-  * Initial release
+  * Non-maintainer upload.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Ondřej Nový ]
+  * Use debhelper-compat instead of debian/compat.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 11 to 12.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Bump debhelper from old 12 to 13.
+
+  [ Sebastian Ramacher ]
+  * New upstream version 2.0.2 (Closes: #994700)
+  * debian/copyright: Update copyright info for 2.0.2
+  * debian/control: Add python3-jinja2 to Build-Depends
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Sat, 03 Dec 2022 22:01:09 +0100
+
+python-glad (0.1.30-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Drop python2 support; Closes: #937790
+
+ -- Sandro Tosi <morph@debian.org>  Sat, 05 Oct 2019 19:33:43 -0400
+
+python-glad (0.1.30-1) unstable; urgency=medium
+
+  * New upstream version.
+
+ -- Steffen Moeller <moeller@debian.org>  Thu, 06 Jun 2019 17:46:45 +0200
+
+python-glad (0.1.27-1) unstable; urgency=medium
+
+  * Initial release (Closes: #909335)
+
+ -- Steffen Moeller <moeller@debian.org>  Mon, 17 Sep 2018 12:12:45 +0200
